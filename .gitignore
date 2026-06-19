@@ -1,0 +1,67 @@
+# Visual Studio 2022
+.vs/
+.vsconfig
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.vcxproj.user
+
+# JetBrains Rider
+.idea/
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+*.gch
+*.pch
+
+# Compiled Libraries
+*.so
+*.dylib
+*.dll
+*.mod
+*.smod
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables & Output
+*.exe
+*.out
+*.app
+*.ipa
+Output/
+Engine/x64/
+Client/x64/
+
+# OS Generated Files
+.DS_Store
+*.xcodeproj
+*.xcworkspace
+
+# Precompiled Assets
+SourceArt/**/*.png
+SourceArt/**/*.tga
+
+# Unreal Engine Directories
+Binaries/
+Plugins/**/Binaries/
+Build/
+!Build/*/
+Build/*/**
+!Build/*/PakBlacklist*.txt
+!Build/**/*.ico
+*_BuiltData.uasset
+Saved/
+Intermediate/
+Plugins/**/Intermediate/
+DerivedDataCache/
+
+# Prerequisites
+*.d
